@@ -8,6 +8,10 @@ body {
 	font-family: "Open Sans", sans-serif;
 }
 
+ul {
+	list-style: none;
+}
+
 .c60B4A7 {
 	color: #60B4A7;
 }
@@ -16,6 +20,30 @@ body {
 	color: #EC605B;
 }
 
-ul {
-	list-style: none;
+.bg-000000 {
+	background-color: #000000;
+}
+
+.bg-380356 {
+	background-color: #380356;
+}
+
+.bg-6b0078 {
+	background-color: #6b0078;
+}
+
+.bg-93009c {
+	background-color: #93009c;
+}
+
+.bg-b000b2 {
+	background-color: #b000b2;
+}
+
+.bg-image {
+    background: url(./images/bg-image.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    box-shadow: inset 0 0 0 1000px rgba(56, 3, 86, .25);
+    min-height: 100vh;
 }

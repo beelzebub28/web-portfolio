@@ -13,21 +13,21 @@
 </head>
 <body>
 	<!-- Navbar Start -->
-	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand" href="#"><span class="c60B4A7">&lt;/</span><span class="cEC605B">lrg</span><span class="c60B4A7">&gt;</span></a>
+	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-000000">
+		<a class="navbar-brand" href="#landing-page"><span class="c60B4A7">&lt;/</span><span class="cEC605B">lrg</span><span class="c60B4A7">&gt;</span></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">About me <span class="sr-only">(current)</span></a>
+				<li>
+					<a class="nav-link" href="#about-me">About me</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Projects</a>
+					<a class="nav-link" href="#projects">Projects</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Contact Me</a>
+					<a class="nav-link" href="#contact-me">Contact Me</a>
 				</li>
 			</ul>
 		</div>
@@ -36,32 +36,52 @@
 
 	<!-- Main Content Start -->
 	<div class="text-center">
-		<!-- About Me Start -->
-		<div class="container-fluid bg-dark text-light min-vh-100 p-3">
-			<img class="mt-5 mt-md-0 rounded-circle" src="./images/me.jpg" width="250">
-			<div class="mt-2">
+
+		<!-- Landing-Page Start -->
+		<section class="bg-image text-light min-vh-100 p-3" id="landing-page">
+			<div class="mt-5">
 				<div>
-					<h4>Hello, I'm <span class="font-weight-bold">Listher Gonzales</span></h4>
-					<p>
-						I am a web developer in the making. Prior shifting to web development, I worked as a data analyst for four years.
+					<p class="mb-0 text-justify">Hi! I'm</p>
+					<h2 class="font-weight-bold text-justify">Listher Gonzales</h2>
+					<h4 class="text-justify">Web Developer</h4>
+					<p class="text-justify">
+						I am a web developer in the making. Prior shifting to web development, I worked as a data analyst in the financial services industry.
 					</p>
 				</div>
 			</div>
-		</div>
+		</section>
+		<!-- Landing Page End -->
+
+		<!-- About Me Start -->
+		<section class="container-fluid bg-380356 text-light min-vh-100 p-3" id="about-me">
+			<div class="mt-5">
+				<div class="row">
+					<div class="col-md-6 p-md-5">
+						<img class="rounded-circle" src="./images/me.jpg" width="250" alt="Listher Gonzales">
+					</div>
+					<div class="col-md-6 p-md-5" >
+						<h4 class="mt-5 mt-md-3">About Me</span></h4>
+						<p class="text-justify">
+							Hello everyone! My name is Listher Gonzales, mathematics degree holder from De La Salle University and a web developer student from Zuitt Learning Institute. I decided to shift career after four and a half years of working as a data analyst.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
 		<!-- About Me End -->
 
 		<!-- Projects Start -->
-		<div class="bg-secondary text-light min-vh-100 p-5">
+		<section class="bg-6b0078 text-light min-vh-100 p-5" id="projects">
 			<h2 class="mb-3">Projects</h2>
 
-			<!-- Other Projects Containter Start -->
-			<div class="p-md-5 d-lg-flex justify-content-center">
+			<!-- Projects Containter Start -->
+			<div class="d-md-flex justify-content-center">
 				<!-- Capstone 1 Card Start -->
-				<div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
+				<div class="card bg-dark col-md-4 mx-lg-3">
 					<div class="card-body">
-						<img class="img-fluid" src="./images/insert_image.png" alt="My Portfolio">
+						<img class="img-fluid" src="./images/capstone-1.jpg" alt="My Portfolio">
 						<h5 class="card-title mt-3">Capstone 1</h5>
-						<h6 class="card-subtitle mb-2 text-muted">Front-end Web Development</h6>
+						<h6 class="card-subtitle mb-2 text-muted">Front-end</h6>
 						<p class="card-text text-justify">In this project, I created my own developer portfolio.</p>
 						<hr  class="border-light">
 						<h5 class="text-justify font-weight-bold">Technologies</h5>
@@ -77,11 +97,11 @@
 				<!-- Capstone 1 Card Card End -->
 
 				<!-- Capstone 2 Card Start -->
-				<div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
+				<div class="card bg-dark my-3 col-md-4 my-md-0 mx-md-3 mx-lg-2">
 					<div class="card-body">
 						<img class="img-fluid" src="https://img.freepik.com/free-vector/flat-coming-soon-construction-background_1017-37083.jpg" alt="Under Construction">
 						<h5 class="card-title mt-3">Capstone 2</h5>
-						<h6 class="card-subtitle mb-2 text-muted">Back-end Web Development</h6>
+						<h6 class="card-subtitle mb-2 text-muted">Back-end</h6>
 						<p class="card-text text-justify">Future Project</p>
 						<hr class="border-light">
 						<h5 class="text-justify font-weight-bold">Technologies</h5>
@@ -95,11 +115,11 @@
 				<!-- Capstone 2 Card Card End -->
 
 				<!-- Capstone 3 Card Start -->
-				<div class="card bg-dark col-xl-4 mb-5 mb-xl-0">
+				<div class="card bg-dark col-md-4 mx-lg-3">
 					<div class="card-body">
 						<img class="img-fluid" src="https://img.freepik.com/free-vector/flat-coming-soon-construction-background_1017-37083.jpg" alt="Under Construction">
 						<h5 class="card-title mt-3">Capstone 3</h5>
-						<h6 class="card-subtitle mb-2 text-muted">Full-stack Web Development</h6>
+						<h6 class="card-subtitle mb-2 text-muted">Full-stack</h6>
 						<p class="card-text text-justify">Future Project</p>
 						<hr class="border-light">
 						<h5 class="text-justify font-weight-bold">Technologies</h5>
@@ -113,17 +133,17 @@
 				<!-- Capstone 3 Card Card End -->
 
 			</div>
-			<!-- Other Projects Containter End -->
-		</div>
+			<!-- Projects Containter End -->
+		</section>
 		<!-- Projects End -->
 
 		<!-- Contact Me Start -->
-		<div class="bg-dark text-light min-vh-100 p-5">
-			<h2>Contact Me</h2>
+		<section class="bg-93009c text-light min-vh-100 p-4" id="contact-me">
+			<h2 class="mb-4">Contact Me</h2>
 
 			<!-- Contact Form Container Start -->
 			<div class="row">
-				<div class="bg-secondary offset-md-2 col-md-8 offset-xl-4 col-xl-4 rounded pt-3">
+				<div class="bg-dark offset-md-2 col-md-8 offset-xl-4 col-xl-4 rounded pt-3">
 					<form>
 						<div class="form-group text-justify">
 							<label for="name">Name</label>
@@ -141,7 +161,7 @@
 							<label for="message">Message</label>
 							<textarea class="form-control" id="message" rows="3"></textarea>
 						</div>
-						<button type="button" class="btn btn-dark mb-3" data-toggle="modal" data-target="#Modal">Send Email</button>
+						<button type="button" class="btn btn-secondary mb-3" data-toggle="modal" data-target="#Modal">Send Email</button>
 					</form>
 				</div>
 			</div>
@@ -169,25 +189,21 @@
 			<!-- Modal End -->
 
 			<!-- Links Start -->
-			<div class="container text-center">
-				<nav>
-					<ul class="footer__menu">
-						<li class="footer__menu-item"><a href=https://www.linkedin.com/in/listhergonzales" class="footer__menu-link" target="_blank">LinkedIn</a></li>
-						<li class="footer__menu-item"><a href="mailto:gonzaleslr28@gmail.com" class="footer__menu-link">Email</a></li>
-						<li class="footer__menu-item"><a href="https://gitlab.com/beelzebub28" class="footer__menu-link" target="_blank">GitHub</a></li>
-					</ul>
-				</nav>
+			<div class="container text-center mt-3">
+				<a href="https://www.linkedin.com/in/listhergonzales/" target="_blank" class="text-decoration-none text-dark">LinkedIn</a>
+				<a href="mailto:gonzaleslr28@gmail.com" class="mx-3 text-decoration-none text-dark">Email</a>
+				<a href="https://gitlab.com/beelzebub28" target="_blank" class="text-decoration-none text-dark">GitLab</a>
 			</div>
 			<!-- Links End -->
 
-		</div>
+		</section>
 		<!-- Contact Me End -->
 
 	</div>
 	<!-- Main Content End -->
 
 	<!-- Footer Start -->
-	<div class="bg-dark text-secondary text-center p-3">
+	<div class="bg-93009c text-secondary text-center p-3 m-0">
 		<p class="m-0">© Listher Gonzales. All Rights Reserved.</p>
 	</div>
 	<!-- Footer End -->
