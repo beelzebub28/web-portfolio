@@ -48,3 +48,7 @@ ul {
     background-attachment: fixed;
     min-height: 100vh;
 }
+
+.font-pacifico {
+	font-family: 'Pacifico', cursive;
+}
